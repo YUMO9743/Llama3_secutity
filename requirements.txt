@@ -1,0 +1,12 @@
+torch==2.0.1
+transformers>=4.36.0
+datasets==2.10.1
+peft>=0.4.0
+trl>=0.7.1
+accelerate>=0.26.0
+bitsandbytes==0.40.2
+wandb==0.15.7
+triton==2.0.0
+scipy==1.10.1
+numpy==1.24.3
+scikit-learn==1.2.2
