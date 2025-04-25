@@ -1,0 +1,403 @@
+[
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141807009,2006.03.08,bn91,Mar,08,03:36:49,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141807110,2006.03.08,an765,Mar,08,03:38:30,an765/an765,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141807164,2006.03.08,an765,Mar,08,03:39:24,an765/an765,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141807994,2006.03.08,en367,Mar,08,03:53:14,en367/en367,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141808067,2006.03.08,bn91,Mar,08,03:54:27,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141808105,2006.03.08,dn1003,Mar,08,03:55:05,dn1003/dn1003,kernel,scsi0 (0:0): rejecting I/O to offline device,464d05a3,scsi0 (<*>:<*>): rejecting I/O to offline device,['0:0']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141808229,2006.03.08,cn361,Mar,08,03:57:09,cn361/cn361,pbs_mom,Bad file descriptor (9) in tm_request, job 59141.tbird-admin2 not running,1f2c3770,Bad file descriptor (<*>) in tm_request, job <*>.tbird-admin2 not running,['9', '59141']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141808891,2006.03.08,cn551,Mar,08,04:08:11,cn551/cn551,kernel,mptscsih: ioc0: attempting task abort! (sc=00000100a0722780),f032d287,mptscsih: ioc0: attempting <*> <*> <*>,['task', 'abort! (sc=00000100a0722780)']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141808949,2006.03.08,cn551,Mar,08,04:09:09,cn551/cn551,kernel,mptscsih: ioc0: attempting task abort! (sc=00000101921da680),f032d287,mptscsih: ioc0: attempting <*> <*> <*>,['task', 'abort! (sc=00000101921da680)']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141809118,2006.03.08,an191,Mar,08,04:11:58,an191/an191,kernel,EXT3-fs error (device sda5) in start_transaction: Journal has aborted,5bb5485f,EXT3-fs error (device <*> in <*> Journal has aborted,['sda5)', 'start_transaction:']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141809134,2006.03.08,bn91,Mar,08,04:12:14,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141809330,2006.03.08,cn361,Mar,08,04:15:30,cn361/cn361,pbs_mom,Bad file descriptor (9) in tm_request, job 59141.tbird-admin2 not running,1f2c3770,Bad file descriptor (<*>) in tm_request, job <*>.tbird-admin2 not running,['9', '59141']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141809350,2006.03.08,bn604,Mar,08,04:15:50,bn604/bn604,kernel,[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error)),69b03e6e,<*> <*> failed, return code = <*> (Fatal error (Local Catastrophic Error)),['[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad', '-254']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141810141,2006.03.08,cn361,Mar,08,04:29:01,cn361/cn361,pbs_mom,Bad file descriptor (9) in tm_request, job 59141.tbird-admin2 not running,1f2c3770,Bad file descriptor (<*>) in tm_request, job <*>.tbird-admin2 not running,['9', '59141']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141811394,2006.03.08,en231,Mar,08,04:49:54,en231/en231,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141811422,2006.03.08,cn551,Mar,08,04:50:22,cn551/cn551,kernel,mptscsih: ioc0: attempting task abort! (sc=00000101921da080),f032d287,mptscsih: ioc0: attempting <*> <*> <*>,['task', 'abort! (sc=00000101921da080)']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141811521,2006.03.08,bn91,Mar,08,04:52:01,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141811818,2006.03.08,an834,Mar,08,04:56:58,an834/an834,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM1_B Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM1_B']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141812072,2006.03.08,an763,Mar,08,05:01:12,an763/an763,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141812161,2006.03.08,cn380,Mar,08,05:02:41,cn380/cn380,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM2_B Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM2_B']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141812651,2006.03.08,bn91,Mar,08,05:10:51,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141812773,2006.03.08,dn898,Mar,08,05:12:53,dn898/dn898,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM1_A Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM1_A']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141812905,2006.03.08,an762,Mar,08,05:15:05,an762/an762,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141813187,2006.03.08,an765,Mar,08,05:19:47,an765/an765,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141813518,2006.03.08,dn792,Mar,08,05:25:18,dn792/dn792,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM1_A Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM1_A']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141813534,2006.03.08,en278,Mar,08,05:25:34,en278/en278,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141813731,2006.03.08,bn91,Mar,08,05:28:51,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141814178,2006.03.08,an762,Mar,08,05:36:18,an762/an762,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141814281,2006.03.08,en373,Mar,08,05:38:01,en373/en373,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141814556,2006.03.08,dn1003,Mar,08,05:42:36,dn1003/dn1003,kernel,scsi0 (0:0): rejecting I/O to offline device,464d05a3,scsi0 (<*>:<*>): rejecting I/O to offline device,['0:0']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141814651,2006.03.08,an1011,Mar,08,05:44:11,an1011/an1011,kernel,scsi0 (0:0): rejecting I/O to offline device,464d05a3,scsi0 (<*>:<*>): rejecting I/O to offline device,['0:0']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142332624,2006.03.14,en276,Mar,14,05:37:04,en276/en276,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142332657,2006.03.14,an765,Mar,14,05:37:37,an765/an765,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142332876,2006.03.14,an834,Mar,14,05:41:16,an834/an834,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM1_B Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM1_B']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142332913,2006.03.14,en300,Mar,14,05:41:53,en300/en300,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142333303,2006.03.14,bn91,Mar,14,05:48:23,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142554987,2006.03.16,cn361,Mar,16,19:23:07,cn361/cn361,pbs_mom,Bad file descriptor (9) in tm_request, job 59141.tbird-admin2 not running,1f2c3770,Bad file descriptor (<*>) in tm_request, job <*>.tbird-admin2 not running,['9', '59141']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142555666,2006.03.16,an760,Mar,16,19:34:26,an760/an760,kernel,[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error)),69b03e6e,<*> <*> failed, return code = <*> (Fatal error (Local Catastrophic Error)),['[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad', '-254']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142555684,2006.03.16,bn91,Mar,16,19:34:44,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142555877,2006.03.16,bn433,Mar,16,19:37:57,bn433/bn433,kernel,[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error)),69b03e6e,<*> <*> failed, return code = <*> (Fatal error (Local Catastrophic Error)),['[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad', '-254']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142556124,2006.03.16,bn91,Mar,16,19:42:04,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142910800,2006.03.20,bn395,Mar,20,22:13:20,bn395/bn395,Server Administrator,Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM3_B Possible memory module event cause:Single bit error logging disabled,3a36b656,Instrumentation Service EventID: <*> Memory device status is critical Memory device location: <*> Possible memory module event cause:Single bit error logging disabled,['1404', 'DIMM3_B']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142910867,2006.03.20,en157,Mar,20,22:14:27,en157/en157,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142912422,2006.03.20,an191,Mar,20,22:40:22,an191/an191,kernel,EXT3-fs error (device sda5) in start_transaction: Journal has aborted,5bb5485f,EXT3-fs error (device <*> in <*> Journal has aborted,['sda5)', 'start_transaction:']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142913059,2006.03.20,an191,Mar,20,22:50:59,an191/an191,kernel,mptscsih: ioc0: attempting task abort! (sc=00000101bfe3f680),6d625179,mptscsih: ioc0: <*> <*> <*> (sc=00000101bfe3f680),['attempting', 'task abort!']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141662781,2006.03.06,bn604,Mar,06,11:33:01,bn604/bn604,kernel,[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error)),69b03e6e,<*> <*> failed, return code = <*> (Fatal error (Local Catastrophic Error)),['[KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad', '-254']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141662937,2006.03.06,an762,Mar,06,11:35:37,an762/an762,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141663147,2006.03.06,bn91,Mar,06,11:39:07,bn91/bn91,kernel,Uhhuh. NMI received. Dazed and confused, but trying to continue,0ad13120,Uhhuh. NMI received. Dazed and confused, but trying to continue,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141663263,2006.03.06,an762,Mar,06,11:41:03,an762/an762,pbs_mom,Connection refused (111) in open_demux, open_demux: cannot connect to 10.100.5.126:45841,0d224bfd,Connection refused (<*>) in open_demux, open_demux: cannot connect to <*>,['111', '10.100.5.126:45841']",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1142019803,2006.03.10,en189,Mar,10,14:43:23,en189/en189,kernel,Losing some ticks... checking if CPU frequency changed.,d4273323,Losing some ticks... checking if CPU frequency changed.,[]",
+    "output": "abnormal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141106093,2006.02.28,bn844,Feb,28,00:54:53,bn844/bn844,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141106122,2006.02.28,dadmin1,Feb,28,00:55:22,src@dadmin1,crond(pam_unix)[27020],session opened for user root by (uid=0),09789b2b,session opened for user <*> by <*>,['root', '(uid=0)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141108103,2006.02.28,dn825,Feb,28,01:28:23,dn825/dn825,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141108155,2006.02.28,an192,Feb,28,01:29:15,an192/an192,crond[29291],(root) CMD (run-parts /etc/cron.hourly),5947eee3,(root) CMD <*> <*>,['(run-parts /etc/cron.hourly)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141108370,2006.02.28,an690,Feb,28,01:32:50,an690/an690,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141108621,2006.02.28,cn244,Feb,28,01:37:01,cn244/cn244,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109128,2006.02.28,tbird-sm1,Feb,28,01:45:28,src@tbird-sm1,ib_sm.x[15679],[ib_sm_sweep.c:411]: IB node 0x0005AD0000025A5A port 20 is INIT state,cd9d6f02,[ib_sm_sweep.c:<*>]: IB node <*> port <*> is INIT state,['411', '0x0005AD0000025A5A', '20']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109552,2006.02.28,bn971,Feb,28,01:52:32,bn971/bn971,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109678,2006.02.28,bn385,Feb,28,01:54:38,bn385/bn385,ntpd[2273],synchronized to 10.100.10.250, stratum 3,ef226888,synchronized to <*> stratum <*>,['10.100.10.250,', '3']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109782,2006.02.28,bn844,Feb,28,01:56:22,bn844/bn844,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109910,2006.02.28,dn628,Feb,28,01:58:30,dn628/dn628,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141109955,2006.02.28,cn504,Feb,28,01:59:15,cn504/cn504,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141110176,2006.02.28,an168,Feb,28,02:02:56,an168/an168,Server Administrator,Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0,dafcf811,Instrumentation Service EventID: <*> Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): <*>.<*>,['1053', '10.0']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141110351,2006.02.28,cn504,Feb,28,02:05:51,cn504/cn504,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141110495,2006.02.28,an760,Feb,28,02:08:15,an760/an760,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141111175,2006.02.28,cadmin1,Feb,28,02:19:35,src@cadmin1,sendmail[9229],My unqualified host name (cadmin1) unknown; sleeping for retry,182a3d2f,My unqualified host name <*> unknown; sleeping for retry,['(cadmin1)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141111365,2006.02.28,bn168,Feb,28,02:22:45,bn168/bn168,ntpd[2273],synchronized to 10.100.14.250, stratum 3,ef226888,synchronized to <*> stratum <*>,['10.100.14.250,', '3']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141111479,2006.02.28,bn604,Feb,28,02:24:39,bn604/bn604,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141111573,2006.02.28,dn875,Feb,28,02:26:13,dn875/dn875,kernel,MOSAL(1): mlock_ctx = 0000000000000000,e930aee1,MOSAL(<*>): <*> = <*>,['1', 'mlock_ctx', '0000000000000000']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141111728,2006.02.28,an690,Feb,28,02:28:48,an690/an690,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141112223,2006.02.28,dn927,Feb,28,02:37:03,dn927/dn927,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141112402,2006.02.28,tbird-sm1,Feb,28,02:40:02,src@tbird-sm1,ib_sm.x[15679],[ib_sm_discovery.c:470]: Failed to GetNodeInfo() because of NO RESPONSE,67ae54f0,[ib_sm_discovery.c:<*>]: Failed to GetNodeInfo() because of NO RESPONSE,['470']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141112545,2006.02.28,bn971,Feb,28,02:42:25,bn971/bn971,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141112728,2006.02.28,an248,Feb,28,02:45:28,an248/an248,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141112900,2006.02.28,bn433,Feb,28,02:48:20,bn433/bn433,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113019,2006.02.28,an690,Feb,28,02:50:19,an690/an690,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113068,2006.02.28,bn471,Feb,28,02:51:08,bn471/bn471,postfix/postdrop[15989],warning: mail_queue_enter: create file maildrop/129658.15989: Read-only file system,6292dd22,warning: mail_queue_enter: create file maildrop/<*>.<*>: Read-only file system,['129658.15989']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113285,2006.02.28,bn670,Feb,28,02:54:45,bn670/bn670,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113292,2006.02.28,dn825,Feb,28,02:54:52,dn825/dn825,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113487,2006.02.28,an760,Feb,28,02:58:07,an760/an760,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113746,2006.02.28,an178,Feb,28,03:02:26,an178/an178,Server Administrator,Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0,dafcf811,Instrumentation Service EventID: <*> Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): <*>.<*>,['1053', '10.0']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113866,2006.02.28,bn224,Feb,28,03:04:26,bn224/bn224,Server Administrator,Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0,dafcf811,Instrumentation Service EventID: <*> Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): <*>.<*>,['1053', '10.0']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141113945,2006.02.28,tbird-sm1,Feb,28,03:05:45,src@tbird-sm1,ib_sm.x[24904],[ib_sm_discovery.c:1103]: Failed discover node test, node 5ad0000027e5c, port_num= 7, error code 1,541ec8da,[ib_sm_discovery.c:<*>]: Failed discover node test, node <*> port_num= <*>, error code <*>,['1103', '5ad0000027e5c,', '7', '1']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114647,2006.02.28,dn642,Feb,28,03:17:27,dn642/dn642,ntpd[2263],synchronized to 10.100.26.250, stratum 3,ef226888,synchronized to <*> stratum <*>,['10.100.26.250,', '3']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114678,2006.02.28,an248,Feb,28,03:17:58,an248/an248,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114757,2006.02.28,tbird-sm1,Feb,28,03:19:17,src@tbird-sm1,ib_sm.x[15679],[ib_sm_discovery.c:1103]: Failed discover node test, node 5ad0000027860, port_num= 23, error code 1,541ec8da,[ib_sm_discovery.c:<*>]: Failed discover node test, node <*> port_num= <*>, error code <*>,['1103', '5ad0000027860,', '23', '1']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114862,2006.02.28,bn971,Feb,28,03:21:02,bn971/bn971,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114913,2006.02.28,bn938,Feb,28,03:21:53,bn938/bn938,ntpd[2283],synchronized to 10.100.14.250, stratum 3,ef226888,synchronized to <*> stratum <*>,['10.100.14.250,', '3']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1141114915,2006.02.28,bn844,Feb,28,03:21:55,bn844/bn844,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140588394,2006.02.22,tbird-sm1,Feb,22,01:06:34,src@tbird-sm1,ib_sm.x[15679],[ib_sm_discovery.c:490]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 15, 11, 18, 0, 0, 0,cc5ed37f,[ib_sm_discovery.c:<*>]: Failed to <*> - hop_count: <*>, direct_path: <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>,['490', 'GetNodeInfo()', '6', '0', '1', '4', '13', '15', '11', '18', '0', '0', '0']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140588802,2006.02.22,bn604,Feb,22,01:13:22,bn604/bn604,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140588860,2006.02.22,bn670,Feb,22,01:14:20,bn670/bn670,kernel,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011),4bc0a196,[KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-<*>.<*>.<*>-<*>/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:<*>]mad_process failed (<*>) for InfiniHost0 port <*> QPN <*> (class <*> aid <*>,['3', '2.0-16', '292', '0', '1', '0', '0x81,', '0x0011)']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140588888,2006.02.22,bn471,Feb,22,01:14:48,bn471/bn471,postfix/postdrop[5191],warning: mail_queue_enter: create file maildrop/889308.5191: Read-only file system,6292dd22,warning: mail_queue_enter: create file maildrop/<*>.<*>: Read-only file system,['889308.5191']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140589231,2006.02.22,tbird-sm1,Feb,22,01:20:31,src@tbird-sm1,ib_sm.x[15679],[ib_sm_discovery.c:1103]: Failed discover node test, node 5ad0000027906, port_num= 5, error code 1,541ec8da,[ib_sm_discovery.c:<*>]: Failed discover node test, node <*> port_num= <*>, error code <*>,['1103', '5ad0000027906,', '5', '1']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140589514,2006.02.22,an178,Feb,22,01:25:14,an178/an178,snmpd[7383],Got trap from peer on fd 13,6ce9a3bb,Got trap from peer on fd <*>,['13']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140589527,2006.02.22,tbird-sm1,Feb,22,01:25:27,src@tbird-sm1,ib_sm.x[24904],[INFO]: Configuration caused by some ports in INIT state,5d37b30c,[INFO]: Configuration caused by some ports in INIT state,[]",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140589846,2006.02.22,an538,Feb,22,01:30:46,an538/an538,postfix/postdrop[22573],warning: mail_queue_enter: create file maildrop/794475.22573: Read-only file system,6292dd22,warning: mail_queue_enter: create file maildrop/<*>.<*>: Read-only file system,['794475.22573']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140590266,2006.02.22,tbird-sm1,Feb,22,01:37:46,src@tbird-sm1,ib_sm.x[15679],[ib_sm_discovery.c:490]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 8, 8, 7, 0, 0, 0,cc5ed37f,[ib_sm_discovery.c:<*>]: Failed to <*> - hop_count: <*>, direct_path: <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>,['490', 'GetNodeInfo()', '6', '0', '1', '1', '13', '8', '8', '7', '0', '0', '0']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140590375,2006.02.22,cn504,Feb,22,01:39:35,cn504/cn504,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  },
+  {
+    "instruction": "Lable the following log with NORMAl or ABNORMAL, only output the lable: 1140591601,2006.02.22,bn243,Feb,22,02:00:01,bn243/bn243,kernel,THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state,ab76c4bf,THH(<*>): <*> <*> Device in FATAL state,['1', 'mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad:']",
+    "output": "normal"
+  }
+]
