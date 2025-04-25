@@ -1,0 +1,42 @@
+[
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: The security team detected a large number of DNS requests to a domain associated with malware.",
+    "output": "This could be indicative of Malware Command and Control (T1071.004). The infected system might be communicating with a command and control server. Recommended mitigation includes blocking the malicious domain, using DNS security solutions, and monitoring network traffic for anomalies."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: An employee reported that their computer is displaying a message claiming that their files have been encrypted and demanding payment to decrypt them.",
+    "output": "This is a clear sign of a Ransomware Attack (T1486). The attacker has encrypted the files and is demanding payment. Recommended mitigation includes maintaining regular backups, using anti-ransomware tools, and educating employees on safe computing practices."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: The IT department noticed that several systems are attempting to connect to a known malicious domain.",
+    "output": "This could indicate a Malware Infection (T1071.001). The systems might be infected and trying to communicate with a command and control server. Recommended mitigation includes isolating the affected systems, using anti-malware tools, and blocking communication with the malicious domain."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: A user reported that their computer is displaying a message claiming that their files have been locked and demanding payment to unlock them.",
+    "output": "This is a clear sign of a Ransomware Attack (T1486). The attacker has locked the files and is demanding payment. Recommended mitigation includes maintaining regular backups, using anti-ransomware tools, and educating employees on safe computing practices."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: A security tool flagged that a user's workstation is running a PowerShell script that's attempting to disable Windows Defender.",
+    "output": "This aligns with MITRE technique T1562.001 - Impair Defenses: Disable or Modify Tools, specifically targeting antivirus software. It's part of the Defense Evasion tactic. Mitigations include monitoring for attempts to disable security tools, implementing Group Policy to prevent users from disabling Windows Defender, using centrally managed endpoint protection platforms, and monitoring PowerShell execution for suspicious activities."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: Multiple failed login attempts were detected on the company's VPN, with usernames that don't exist in the Active Directory.",
+    "output": "This scenario matches MITRE technique T1110.001 - Brute Force: Password Guessing, part of the Credential Access tactic. Mitigations include implementing account lockout policies, using multi-factor authentication for VPN access, monitoring for and alerting on multiple failed login attempts, and considering the use of adaptive authentication that can detect and block unusual login patterns."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: Log analysis shows that a user account is repeatedly attempting to access and modify Active Directory objects outside of their usual responsibilities.",
+    "output": "This scenario matches MITRE technique T1078.002 - Valid Accounts: Domain Accounts, potentially combined with T1484 - Domain Policy Modification. It's part of the Persistence and Privilege Escalation tactics. Mitigations include implementing the principle of least privilege, monitoring for unusual Active Directory access patterns, using privileged access management solutions, regularly auditing AD permissions, and implementing strict change management processes for AD modifications."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: We discovered suspicious network traffic patterns indicative of command-and-control (C2) communication with external IP addresses.",
+    "output": "This aligns with the MITRE technique of Uncommonly Used Port (T1024). Adversaries may use non-standard or uncommon ports for C2 communications to evade detection. Recommended mitigations include implementing network monitoring and analysis, using intrusion detection/prevention systems, and restricting outbound traffic to authorized destinations."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: We've noticed unusual outbound network traffic using ICMP protocol from several workstations in our network.",
+    "output": "This scenario suggests potential use of ICMP for command and control or data exfiltration, aligning with MITRE ATT&CK technique T1095: Non-Application Layer Protocol. Recommended mitigations include: 1) Implement egress filtering to restrict outbound ICMP traffic. 2) Monitor and analyze ICMP traffic patterns for anomalies. 3) Consider blocking or limiting ICMP traffic at the network perimeter. 4) Use intrusion detection/prevention systems (IDS/IPS) configured to detect unusual ICMP traffic patterns. 5) Implement network segmentation to limit the potential for lateral movement using ICMP."
+  },
+  {
+    "instruction": "Identify which MITRE technique the following scenario matches with, and give a concise explanation: We noticed a significant increase in failed login attempts on our remote desktop server from various IP addresses.",
+    "output": "This scenario suggests a Brute Force attack (T1110). Attackers are trying to gain access by guessing passwords. Recommended mitigation includes implementing account lockout policies and multi-factor authentication."
+  }
+]
