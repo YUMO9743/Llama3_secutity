@@ -1,4 +1,4 @@
-# Llama3: Instruction Fine-Tuning Open-Source LLM for Network Analysis and Security Analysis
+# Llama3: Instruction Fine-Tuning Open-Source LLM for Network Security Analysis
 
 ## Directory Structure
 
