@@ -28,3 +28,14 @@ python3 llama3_finetune.py     --output_dir "../llama3_security"     --batch_siz
 Run testing example
 ```bash
 python test_security.py --test_file ./validating/validate_logs.json
+```
+
+## Finetuning example
+```bash
+python ./finetuning/llama3_finetune.py     --output_dir "../llama3_security"     --batch_size 2     --gradient_accumulation_steps 4     --optim "paged_adamw_32bit"    --logging_steps 200    --learning_rate 0.0001    --max_grad_norm 0.3     --max_steps 8000    --warmup_ratio 0.05     --lora_alpha 16    --lora_dropout 0.1     --lora_r 64    --num_train_epochs 2.0
+```
+
+# Testing example
+```bash
+python ./test_security.py --test_file ./validating/validate_logs.json
+```
