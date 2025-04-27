@@ -48,7 +48,7 @@ def generate_response(prompt, model, tokenizer, max_length=2048):
             **inputs,
             max_length=max_length,
             num_return_sequences=1,
-            temperature=0.7,
+            temperature=0.1,
             do_sample=True,
             pad_token_id=tokenizer.pad_token_id
         )
