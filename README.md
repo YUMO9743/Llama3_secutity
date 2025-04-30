@@ -39,9 +39,21 @@ python ./finetuning/llama3_finetune.py     --output_dir "../llama3_security"    
 ```bash
 python ./test_security.py --test_file ./validating/validate_logs.json
 ```
-## Figures
+## Testing example results
+### Log Labeling
+For log labeling, the overall accuracy was stably > 70%. 
 <figure>
   <img src="images/Confusion_Matrix.png" alt="Architecture" style="width: auto; max-width: 100%; height: auto; max-height: 60%;">
 
 </figure>
 
+
+### Analysis Tasks
+For security tasks analysis, most generated outputs identify the correct technique but often with incorrect subcategories. The output also contains some verbose information.
+
+Since the training dataset is not large enough, this issue is reasonable. 
+
+| Instruction           | Expected                | Actural                     
+|------------------|-----------------------------------------|-----------------------------------------|
+| Identify which MITRE technique the following scenario matches with, and give a concise explanation: The IT department noticed that several systems are attempting to connect to a known malicious domain.  | This could indicate a Malware Infection (T1071.001). The systems might be infected and trying to communicate with a command and control server. Recommended mitigation includes isolating the affected systems, using anti-malware tools, and blocking communication with the malicious domain. | This aligns with MITRE technique T1071 - Application Layer Protocol, specifically for Command and Control. Mitigations include implementing robust URL filtering, monitoring for connections to known malicious domains, using threat intelligence feeds to stay informed about malicious activity, and considering the use of next-generation firewalls with advanced threat protection capabilities. Mitigations should be combined to provide comprehensive protection against command and control activities....
+| Identify security risks associated with firewall rule: Action: Accept, Permissiveness: Medium, Logging: Enabled, violationHighestSeverity: LOW, shadowed: FULLY_SHADOWED | Medium permissiveness level allows broader access, increasing the risk of unauthorized access or data breaches.\nEnabling logging provides visibility into network traffic, aiding in threat detection and incident response.\nImplement strict access controls and authentication mechanisms to prevent unauthorized access.\nThe presence of fully shadowed rules indicates misconfigurations within the firewall policy, reducing its effectiveness and increasing the risk of security breaches.\nOptimizing firewall rules by removing fully shadowed rules and consolidating overlapping rules can help streamline the policy and improve security posture. | The firewall rule with action Accept, permissiveness Medium, and logging Enabled poses a moderate risk. However, it's fully shadowed, reducing its effectiveness.\nThe best course of action is to remove the fully shadowed rule, as it provides no additional security value and may cause confusion. Regularly audit and optimize firewall rules to maintain a secure and streamlined security posture. [/s] This response aligns with the provided scenario and offers practical recommendations for improving...
