@@ -5,6 +5,7 @@ import json
 import os
 import argparse
 from datetime import datetime
+import re
 
 def load_fine_tuned_model(base_model_id, adapter_path, hf_token):
     """
@@ -40,12 +41,27 @@ def generate_response(prompt, model, tokenizer, max_length=2048):
     
     # Tokenize input
     inputs = tokenizer(formatted_prompt, return_tensors="pt", padding=True)
-    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+    input_ids = inputs["input_ids"].to(model.device)
+    attention_mask = inputs["attention_mask"].to(model.device)
+    
+    # Find the position of [/INST] token in the input
+    inst_end_tokens = tokenizer.encode("[/INST]", add_special_tokens=False)
+    inst_end_pos = None
+    
+    # Find the last token of [/INST]
+    for i in range(len(input_ids[0]) - len(inst_end_tokens) + 1):
+        if torch.all(input_ids[0][i:i+len(inst_end_tokens)] == torch.tensor(inst_end_tokens, device=model.device)):
+            inst_end_pos = i + len(inst_end_tokens) - 1
+    
+    if inst_end_pos is None:
+        print("Warning: [/INST] token not found in input")
+        inst_end_pos = len(input_ids[0]) - 1
     
     # Generate
     with torch.no_grad():
         outputs = model.generate(
-            **inputs,
+            input_ids=input_ids,
+            attention_mask=attention_mask,
             max_length=max_length,
             num_return_sequences=1,
             temperature=0.1,
@@ -53,28 +69,30 @@ def generate_response(prompt, model, tokenizer, max_length=2048):
             pad_token_id=tokenizer.pad_token_id
         )
     
-    # Decode and return response
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    # Only decode the part after [/INST]
+    response = tokenizer.decode(outputs[0][inst_end_pos + 1:], skip_special_tokens=True).strip()
     return response
 
-def clean_model_response(response):
+def clean_model_response(response,instruction=""):
+# def clean_model_response(response,instruction=""):
     """
     Clean the model response to extract only the relevant information.
     """
-    # Remove the instruction part if it appears in the response
-    if "[/INST]" in response:
-        response = response.split("[/INST]", 1)[1].strip()
     
     # For normal/abnormal classification tasks
-    import re
-    
+
+    # Check if this is a log labeling classification task
+    is_log_labeling = "label the following log with normal or abnormal" in instruction.lower()
+
     # Check if this is a classification task looking for NORMAL/ABNORMAL labels
     normal_match = re.search(r'\b(normal)\b', response.lower())
     abnormal_match = re.search(r'\b(abnormal)\b', response.lower())
-    
-    if normal_match:
+
+    if normal_match and is_log_labeling:
         return "NORMAL"
-    elif abnormal_match:
+    elif abnormal_match and is_log_labeling:
+        return "ABNORMAL"
+    elif is_log_labeling:
         return "ABNORMAL"
     
     # For other tasks, try to extract a meaningful response
@@ -141,6 +159,7 @@ def process_test_cases(test_cases, model, tokenizer, batch_size=5):
             
             # Clean the response
             cleaned_response = clean_model_response(response)
+            # cleaned_response = clean_model_response(response, instruction)
             
             # Store result
             results.append({
@@ -156,7 +175,7 @@ def main():
     parser = argparse.ArgumentParser(description="Test a fine-tuned model with test cases from a JSON file")
     parser.add_argument("--test_file", required=True, help="Path to the JSON file containing test cases")
     parser.add_argument("--base_model", default="meta-llama/Llama-3.1-8B-Instruct", help="Base model ID")
-    parser.add_argument("--adapter_path", default="./llama3_securitymodel/checkpoint-8000", help="Path to LoRA adapter weights")
+    parser.add_argument("--adapter_path", default="./llama3_securitymodel2/checkpoint-8000", help="Path to LoRA adapter weights")
     parser.add_argument("--hf_token", default="", help="Hugging Face token") # Update with your own HF_TOKEN here
     parser.add_argument("--output_dir", default="generation_results", help="Directory to save results")
     parser.add_argument("--output_file", help="Specific output filename (optional, otherwise timestamp will be used)")
